@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Climate Analysis
+    </title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="landing.html">Climate Analysis</a>
+        <div class="navbar" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="data.html">Data</a>
+                </li>
+                <li>
+                    <a class="nav-link" href="comparison.html">Comparisons</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Visualizations
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="temperature.html">Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloudiness.html">Cloud Coverage</a>
+                        <a class="dropdown-item" href="wind.html">Wind Speed</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="data.html">Data</a>
+                        <a class="dropdown-item" href="comparison.html">Comparison</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1 class="text-center">
+        Summary: Latitude vs X
+    </h1>
+    <p text-indent: 40px;  class="lead">
+            The purpose of this project is to analyze how the weather changes as you get closer to the equator. To
+        accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500
+        cities.
+    </p>
+    <p class="lead">
+            After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we
+        looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and
+        visualizations created as part of the analysis, as well as explanations and descriptions of any trands and
+        correlations witnessed.
+    </p>
+    <section>
+        <article>
+            <!-- <a target="_self" href="images/fig1.png">
+                <img src="images/fig1.png" alt="Temperature Graph">
+            </a> -->
+            <p class="text-center">
+                <a target='_self' href='Temperature.html'>
+                    <b class="text-center">City Latitude vs Max Temperature</b></a>
+            </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <!-- <a target="_self" href="images/fig2.png">
+                <img src="images/fig2.png" alt="Humidity Graph">
+            </a> -->
+            <p class="text-center">
+                <a target='_self' href='Humidity.html' class="text-center">
+                    <b class="text-center">City Latitude vs Humidity</b></a>
+            </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <!-- <a target="_self" href="images/fig3.png">
+                <img src="images/fig3.png" alt="Cloudiness Graph">
+            </a> -->
+            <p class="text-center">
+                <a target='_self' href='Cloudiness.html' class="text-center">
+                    <b class="text-center">City Latitude vs Cloudiness</b></a>
+            </p>
+        </article>
+    </section>
+    <section>
+        <article>
+            <!-- <a target="_self" href="images/fig4.png">
+                <img src="images/fig4.png" alt="Wind Speed Graph">
+            </a> -->
+            <p class="text-center">
+                <a target="_self" href="Wind.html" class="text-center">
+                    <b class="text-center">City Latitude vs Wind Speed</b></a>
+            </p>
+        </article>
+    </section>
+    <section class="text-center">
+        <p>
+        <a target="_self" href="comparison.html" class="text-center">
+            <b class="text-center">Comparisons</b>
+        </a>
+        </p>
+    </section>
+    <section class="text-center">
+        <p>
+        <a target="_self" href="data.html" class="text-center">
+            <b class="text-center">Data Page</b>
+        </a>
+        </p>
+    </section>
+</body>
+
+</html>
